@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"></rel>
+
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+          <div class="history" id="lastOperationScreen"></div>
+          <div class="screen-current" id="currentOperationScreen">0</div>
+        </div>
+        <div class="buttons-grid">
+          <button
+            class="specialBtn"
+            id="clearBtn"
+          >
+            CLEAR
+          </button>
+          <button
+            class="specialBtn"
+            id="deleteBtn"
+
+          >
+            DELETE
+          </button>
+          <button class="btn numKey" data-number id="7">7</button>
+          <button class="btn numKey"data-number id="8">8</button>
+          <button class="btn numKey"data-number id="9">9</button>
+          <button class="btn mathKey" data-operator id="/">/</button>
+
+          <button class="btn numKey" data-number id="4">4</button>
+          <button class="btn numKey" data-number id="5">5</button>
+          <button class="btn numKey" data-number id="6">6</button>
+          <button class="btn mathKey" data-operator id="*">*</button>
+
+          <button class="btn numKey" data-number id="1">1</button>
+          <button class="btn numKey" data-number id="2">2</button>
+          <button class="btn numKey" data-number id="3">3</button>
+          <button class="btn mathKey" data-operator id="-">-</button>
+
+          <button class="btn" id="pointBtn">.</button>
+          <button class="btn numKey" data-number>0</button>
+          <button class="btn mathKey equals" id ="=">=</button>
+          <button class="btn mathKey" data-operator id="+">+</button>
+        </div>
+      </div>
+
+
+
+    <script src="./javascript.js"></script>
+</body>
+</html>
